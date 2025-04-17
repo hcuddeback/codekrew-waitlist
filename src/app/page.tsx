@@ -35,7 +35,7 @@ export default function Home() {
         <form onSubmit={handleSubmit} className="flex flex-col gap-4 w-full max-w-md">
           <input type="email" required placeholder="Enter your email" className="p-2 rounded text-white" value={email} onChange={e => setEmail(e.target.value)} />
           <textarea placeholder="What would you build with CodeKrew?" className="p-2 rounded text-white" value={message} onChange={e => setMessage(e.target.value)} />
-          <button className="bg-green-500 text-white py-2 px-4 rounded">Join the Waitlist</button>
+          <button className="bg-indigo-500 hover:bg-orange-500 text-white py-2 px-4 rounded">Join the Waitlist</button>
         </form>
       )}
     </main>
